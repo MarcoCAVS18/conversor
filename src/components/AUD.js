@@ -20,7 +20,7 @@ function AUD({ values, setValues }) { // Recibir setValues desde la prop
   }, [values, setValues]);
 
   return (
-    <div className="w-full bg-gray-100 p-4 flex flex-col items-center">
+    <div className="w-full bg-gray-100 p-8 flex flex-col items-center">
       <p className="mb-2 text-2xl font-semibold">
         Ingrese los montos en AUD:
       </p>

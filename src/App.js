@@ -8,9 +8,10 @@ function App() {
   const [values, setValues] = useState(['']);
 
   return (
-    <div className="min-h-screen bg-gray-200 flex flex-col justify-center items-center">
-      <AUD values={values} setValues={setValues} /> {/* Pasar el estado y la función */}
+    <div className="min-h-screen bg-gray-200 flex flex-col">
+      <AUD values={values} setValues={setValues} />
       <USD values={values} />
+      <div className="flex-grow"></div> {/* Esto ocupará el espacio restante */}
       <Footer />
     </div>
   );

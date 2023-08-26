@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% del viewport */
+    margin: 0;
+  }
